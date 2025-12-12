@@ -1,0 +1,9 @@
+body { font-family: Arial, Helvetica, sans-serif; padding: 20px; }
+.app { max-width: 1000px; margin: 0 auto; }
+.search-bar { display:flex; gap:8px; margin-bottom:12px; }
+.search-bar input { flex:1; padding:8px; font-size:16px; }
+.search-bar button { padding:8px 12px; }
+.weather-card { padding:12px; border-radius:8px; box-shadow:0 1px 6px rgba(0,0,0,0.1); margin-bottom:12px }
+.advisory-box { background: linear-gradient(90deg,#fff7e6,#f0ffef); padding:12px; border-radius:8px; box-shadow:0 1px 6px rgba(0,0,0,0.1); }
+.advisory-box ul { margin:0; padding-left:18px }
+button { cursor:pointer }
